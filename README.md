@@ -1,6 +1,8 @@
-# LingoLift
+# LingoLift (Static Version)
 
-LingoLift is an interactive web application designed to help users practice and improve their English-to-Portuguese translation skills. It provides a distraction-free environment to translate text and receive instant, structured feedback.
+LingoLift is an interactive web application designed to help users practice and improve their English-to-Portuguese translation skills.
+
+**Note:** This is the standalone version of LingoLift that **does not use AI**. While the full version of LingoLift utilizes Artificial Intelligence to generate infinite news articles and provide dynamic, context-aware corrections, this specific version runs entirely on a static, pre-defined internal library. It is designed for offline practice and demonstration purposes without requiring external API keys.
 
 ## How it Works
 
@@ -25,11 +27,3 @@ It is designed as a tool for:
 *   **TypeScript**: Type safety and code structure.
 *   **Tailwind CSS**: Utility-first styling for a clean, responsive UI.
 *   **Lucide React**: Iconography.
-
-## Local Development
-
-This project is built to run in a standard React environment (e.g., Vite, Create React App).
-
-1.  Clone the repository.
-2.  Install dependencies: `npm install`.
-3.  Run the development server: `npm run dev`.
