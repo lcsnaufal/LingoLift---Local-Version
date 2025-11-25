@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# LingoLift
 
-# Run and deploy your AI Studio app
+LingoLift is an interactive web application designed to help users practice and improve their English-to-Portuguese translation skills. It provides a distraction-free environment to translate text and receive instant, structured feedback.
 
-This contains everything you need to run your app locally.
+## How it Works
 
-View your app in AI Studio: https://ai.studio/apps/drive/1XDzLj3ODQHGplff74H2y8yZgtp1yOd6R
+1.  **Practice Text**: The application presents a random English text from a curated internal library (currently featuring 30 diverse scenarios).
+2.  **Translation**: The user enters their Portuguese translation in the dedicated input area.
+3.  **Review & Comparison**: Upon checking the translation, the app switches to a results view that offers:
+    *   **Side-by-Side Comparison**: Displays the user's translation next to a reference translation.
+    *   **Detailed Breakdown**: Analyzes the text phrase-by-phrase, providing the exact meaning of specific segments.
+    *   **Alternative Translations**: Offers valid alternative ways to translate specific phrases to broaden vocabulary.
 
-## Run Locally
+## Educational Purpose
 
-**Prerequisites:**  Node.js
+**This application is for educational purposes only.**
 
+It is designed as a tool for:
+*   Language learners looking to practice translation mechanics and vocabulary.
+*   Developers interested in seeing a React application architecture using TypeScript and Tailwind CSS.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Tech Stack
+
+*   **React 19**: Frontend framework.
+*   **TypeScript**: Type safety and code structure.
+*   **Tailwind CSS**: Utility-first styling for a clean, responsive UI.
+*   **Lucide React**: Iconography.
+
+## Local Development
+
+This project is built to run in a standard React environment (e.g., Vite, Create React App).
+
+1.  Clone the repository.
+2.  Install dependencies: `npm install`.
+3.  Run the development server: `npm run dev`.
